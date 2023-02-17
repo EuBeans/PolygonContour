@@ -36,3 +36,5 @@ One issue that needs to be fixed is the order of which we generate the rounded c
 <https://gorillasun.de/blog/an-algorithm-for-polygons-with-rounded-corners>
 <https://dl.acm.org/doi/pdf/10.1145/129902.129906>
 <https://doc.cgal.org/Manual/3.2/doc_html/cgal_manual/Straight_skeleton_2/Chapter_main.html#Section_16.3>
+<https://stackoverflow.com/questions/1109536/an-algorithm-for-inflating-deflating-offsetting-buffering-polygons>
+

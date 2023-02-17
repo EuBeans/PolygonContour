@@ -24,3 +24,4 @@ class Vector:
         self.x = self.x / length
         self.y = self.y / length
         return self
+    

@@ -9,6 +9,12 @@ The code is a program that takes a list of points and generates a list of points
 - Alter the distance of the padding between the segments and the contour
 - Alter the radius of sharp angles
 
+## Few Examples
+
+![Segments with Complex Angles](/img/Example1.png)
+
+
+![Segments with Complex Angles](/img/Example2.png)
 
 ## Explanation 
 First, for each point in the list, we will add a contour point that is perpendicular to the line between the current point and the next point at a certain distance.
@@ -22,12 +28,7 @@ We will then generate a list of points that make up the arc of the circle that i
 ## Issue That needs resolving
 One issue that needs to be fixed is the order of which we generate the rounded corner (clockwise or counter clockwise). This is done by finding the angle between the two lines. However there are some cases where the order is not correct. 
 
-## Few Examples
 
-![Segments with Complex Angles](/img/Example1.png)
-
-
-![Segments with Complex Angles](/img/Example2.png)
 
 
 ## Sources
